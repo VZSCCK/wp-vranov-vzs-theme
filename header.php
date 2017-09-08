@@ -15,9 +15,17 @@
 
   <!-- HEADER -->
   <div class="header">
-    <div class="wrap">
-      <a href="/" class="logo"></a>
-      <strong class="supertitle">Vodní záchranná služba ČČK</strong>
+    <div class="line white">
+      <div class="wrap">
+        <a href="<?php bloginfo('url')?>" class="logo"></a>
+        <strong class="supertitle">Vodní záchranná služba ČČK</strong>
+      </div>
+    </div>
+      
+    <div class="line blue">
+      <div class="wrap">
+      <strong class="subtitle">Jablonec nad Nisou</strong>
+    </div>
     </div>
   </div>
   <!-- / HEADER -->

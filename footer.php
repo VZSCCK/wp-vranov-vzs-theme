@@ -21,7 +21,7 @@
   <!-- / FOOTER -->
 
   <!-- LOAD ALL USED MINIFIED JS FILES -->
-  <script src="<?php echo BASE_URL; ?>/js/script.min.js"></script>
+  <!-- <script src="<?php echo BASE_URL; ?>/js/script.min.js"></script> -->
   <!-- / LOAD ALL MINIFIED JS FILES -->
 
   <?php wp_footer(); ?>

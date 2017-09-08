@@ -8,7 +8,7 @@
   <link href="<?php bloginfo('stylesheet_url'); ?>" media="screen" rel="stylesheet" type="text/css">
   <script src="<?php echo BASE_URL; ?>/js/jquery-1.11.min.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL; ?>/favicon.png">
-  <title></title>
+  <title><?php wp_title( '|', true, 'right' ); bloginfo('blockname'); ?></title>
   <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>

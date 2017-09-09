@@ -17,7 +17,7 @@
   <div class="header">
     <div class="line white">
       <div class="wrap">
-        <a href="<?php bloginfo('url')?>" class="logo"></a>
+        <a href="<?php bloginfo('url')?>" class="logo"><img src="<?php echo BASE_URL; ?>/images/logo.svg"></a>
         <strong class="supertitle">Vodní záchranná služba ČČK</strong>
       </div>
     </div>

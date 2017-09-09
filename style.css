@@ -179,12 +179,13 @@ li.widget {list-style-type: none;}
 .line.white {border-top: 10px solid #16377c; background-color: white;}
 .line.blue {border-bottom: 7px solid #f9b435; background-color: #16377c;}
 .header>.wrap {min-height: 93px;}
-.header .logo {position: absolute; left: 0; top: 0; width: 176px; height: 176px; background: url(images/logo.png) 0 0 no-repeat; display: block; z-index: 3;}
+.header .logo {position: absolute; left: 0; top: 0; width: 176px; padding: 20px; border-radius: 50%; background-color: white; height: 176px; display: block; z-index: 3;}
+.header .logo img {width: 100%}
 @media all and (max-width: 550px) {
-	.header .logo {-webkit-background-size: 100px 100px; background-size: 100px 100px; right: 0; margin-left: auto; margin-right: auto; width: 100px; height: 100px; top: 55px;}
+	.header .logo {right: 0; padding: 10px; margin-left: auto; margin-right: auto; width: 100px; height: 100px; top: 55px;}
 }
-.header .supertitle {font-size: 40px; color: #c21e1d; font-family: "Arial Black", Arial; font-weight: 900; margin-top: 8px;}
-.header .subtitle {font-size: 30px; color: white; font-family: "Arial Black", Arial; font-weight: 900;}
+.header .supertitle {font-size: 40px; color: #c21e1d; font-family: "Arial Black", Arial, sans-serif; font-weight: 900; margin-top: 8px;}
+.header .subtitle {font-size: 30px; color: white; font-family: "Arial Black", Arial, sans-serif; font-weight: 900;}
 @media all and (max-width: 800px) {
 	.header .supertitle {font-size: 24px;}
  	.header .subtitle {font-size: 18px;}

@@ -20,10 +20,8 @@
   </div>
   <!-- / FOOTER -->
 
-  <!-- LOAD ALL USED MINIFIED JS FILES -->
-  <!-- <script src="<?php echo BASE_URL; ?>/js/script.min.js"></script> -->
-  <!-- / LOAD ALL MINIFIED JS FILES -->
-
+  <script src="<?php echo BASE_URL; ?>/js/respond_menu.js"></script>
+ 
   <?php wp_footer(); ?>
   
   </body>

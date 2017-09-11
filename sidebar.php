@@ -1,8 +1,8 @@
         <div class="sidebar">
           
-          <div class="sidemenu">
-            <?php wp_nav_menu(array('menu_class'=>'sidemenu-list', 'container' => '', 'theme_location'=>'header'));?>
-          </div>
+          <nav class="sidemenu">
+            <?php wp_nav_menu(['menu_class'=>'sidemenu-list', 'container' => '', 'theme_location'=>'header']);?>
+          </nav>
 
           <?php dynamic_sidebar('sidebar-1') ?>
 

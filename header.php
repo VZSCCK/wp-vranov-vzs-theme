@@ -15,6 +15,13 @@
 
   <!-- HEADER -->
   <div class="header">
+    <nav class="topmenu"">
+      <ul>
+        <li><a id="menu-button">☰ Menu</a></li>
+      </ul>
+      <?php wp_nav_menu(['menu_id' => 'menu-top', 'container' => '', 'theme_location'=>'top']);?> 
+    </nav>
+
     <div class="line white">
       <div class="wrap">
         <a href="<?php bloginfo('url')?>" class="logo"><img src="<?php echo BASE_URL; ?>/images/logo.svg"></a>
@@ -32,6 +39,7 @@
 
   <!-- PAGE -->
   <div class="content">
+    <div class="line red"></div>
     <div class="wrap">
       
       <div class="cpage">

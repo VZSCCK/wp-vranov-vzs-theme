@@ -90,7 +90,7 @@ iframe {border-width: 0; width: 100% !important;}
 @media all and (max-width: 767px) {
 	.button.button-large {width: 100%}
 }
-.content {background: #fff url(images/bg.jpg) center top no-repeat;}
+.content {background: #fff url(images/bg.jpg) center top no-repeat; position: relative;}
 .cpage {*zoom: 1; margin-top: 114px; background-color: #fff; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px; padding-bottom: 30px;}
 .cpage:before, .cpage:after {content: ""; display: table;}
 .cpage:after {clear: both;}
@@ -133,21 +133,32 @@ iframe {border-width: 0; width: 100% !important;}
 	.breadcrumbs {padding-left: 3%; padding-right: 3%}
 }
 .breadcrumbs a {color: #5a5959;}
+
+.topmenu {background-color: #c21e1d; text-align: left; display: none;  position: fixed; top: 0; left: 0; width: 100%; z-index: 5;}
+.topmenu .menu {display: none;}
+.topmenu .menu.responsive {display: block;}
+
 .sidemenu {background-color: #c21e1d; color: #fff; padding: 20px; -webkit-border-radius: 8px 0 0 0; -moz-border-radius: 8px 0 0 0; -ms-border-radius: 8px 0 0 0; -o-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; border-bottom: 7px solid #f9b435;}
 .sidemenu-list>li>.sub-menu {display: none; background-color: #b41c1b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
 .sidemenu-list>li>.sub-menu>li.current-menu-item>a {color: #f9b435;}
 .sidemenu-list>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; display: block; padding: 4px 20px;}
-.sidemenu-list>li>.sub-menu>li>a:hover {color: #f9b435;}
+.sidemenu-list>li>.sub-menu>li>a:hover, .topmenu li a:hover {color: #f9b435;}
 .sidemenu-list>li.current-menu-item>a, .sidemenu-list>li.current-post-ancestor>a, .sidemenu-list>li.current-page-ancestor>a {color: #f9b435;}
 .sidemenu-list>li.current-menu-item.menu-item-has-children>.sub-menu, .sidemenu-list>li.current-menu-ancestor.menu-item-has-children>.sub-menu {display: block;}
 .sidemenu-list>li:first-child>a {background: none;}
 .sidemenu-list>li.special-link>a {padding-left: 50px;}
 .sidemenu-list>li.special-link>a:hover {color: #f9b435;}
-.sidemenu-list>li>a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
+.sidemenu-list>li>a, .topmenu li a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
+@media all and (max-width: 767px) {
+	.topmenu {display: block;}
+	.header {margin-top: 40px;}
+	.sidemenu {display: none;}
+	.news {border-radius: 8px !important;}
+}
 @media all and (min-width: 768px) and (max-width: 901px) {
 	.sidemenu-list>li>a {font-size: 14px;}
 }
-.sidemenu-list>li>a:hover {color: #f9b435;}
+.sidemenu-list>li>a:hover, .topmenu li a:hover {color: #f9b435;}
 li.widget {list-style-type: none;}
 .news {background-color: #16377c; color: #fff; padding: 20px; -webkit-border-radius: 0 0 8px 8px; -moz-border-radius: 0 0 8px 8px; -ms-border-radius: 0 0 8px 8px; -o-border-radius: 0 0 8px 8px; border-radius: 0 0 8px 8px; position: relative;}
 .news h3 {font-size: 18px; color: #fff; line-height: 24px; margin-bottom: 20px;}
@@ -175,14 +186,15 @@ li.widget {list-style-type: none;}
 .small {font-size: 11px; line-height: 14px;}
 .border-bottom {border-bottom: 1px solid #eee;}
 .files {font-size: 12px; line-height: 18px;}
-.header {background-image: none; border-bottom: 5px solid #c21e1d; text-align: right; top: 0;}
+.header {background-image: none; border-bottom: 6px solid #c21e1d; text-align: right; top: 0;}
 .line.white {border-top: 10px solid #16377c; background-color: white;}
 .line.blue {border-bottom: 7px solid #f9b435; background-color: #16377c;}
+.line.red {border-bottom: 6px solid #f9b435; background-color: #c21e1d; height: 13px; position: absolute; width: 100%; top: 230px; z-index: 0;}
 .header>.wrap {min-height: 93px;}
 .header .logo {position: absolute; left: 0; top: 0; width: 176px; padding: 20px; border-radius: 50%; background-color: white; height: 176px; display: block; z-index: 3;}
 .header .logo img {width: 100%}
 @media all and (max-width: 550px) {
-	.header .logo {right: 0; padding: 10px; margin-left: auto; margin-right: auto; width: 100px; height: 100px; top: 55px;}
+	.header .logo {right: 0; padding: 10px; margin-left: auto; margin-right: auto; width: 100px; height: 100px; top: 65px;}
 }
 .header .supertitle {font-size: 40px; color: #c21e1d; font-family: "Arial Black", Arial, sans-serif; font-weight: 900; margin-top: 8px;}
 .header .subtitle {font-size: 30px; color: white; font-family: "Arial Black", Arial, sans-serif; font-weight: 900;}

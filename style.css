@@ -134,21 +134,19 @@ iframe {border-width: 0; width: 100% !important;}
 }
 .breadcrumbs a {color: #5a5959;}
 
-.topmenu {background-color: #c21e1d; text-align: left; display: none;  position: fixed; top: 0; left: 0; width: 100%; z-index: 5;}
+.topmenu {background-color: #c21e1d; text-align: left; display: none; position: fixed; top: 0; left: 0; width: 100%; max-height: 100%; z-index: 5; overflow: auto;}
+.topmenu .menu, .topmenu #menu-button {overflow: hidden;}
 .topmenu .menu {display: none;}
 .topmenu .menu.responsive {display: block;}
 
 .sidemenu {background-color: #c21e1d; color: #fff; padding: 20px; -webkit-border-radius: 8px 0 0 0; -moz-border-radius: 8px 0 0 0; -ms-border-radius: 8px 0 0 0; -o-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; border-bottom: 7px solid #f9b435;}
-.sidemenu-list>li>.sub-menu {display: none; background-color: #b41c1b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
-.sidemenu-list>li>.sub-menu>li.current-menu-item>a {color: #f9b435;}
-.sidemenu-list>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; display: block; padding: 4px 20px;}
-.sidemenu-list>li>.sub-menu>li>a:hover, .topmenu li a:hover {color: #f9b435;}
-.sidemenu-list>li.current-menu-item>a, .sidemenu-list>li.current-post-ancestor>a, .sidemenu-list>li.current-page-ancestor>a {color: #f9b435;}
-.sidemenu-list>li.current-menu-item.menu-item-has-children>.sub-menu, .sidemenu-list>li.current-menu-ancestor.menu-item-has-children>.sub-menu {display: block;}
-.sidemenu-list>li:first-child>a {background: none;}
-.sidemenu-list>li.special-link>a {padding-left: 50px;}
-.sidemenu-list>li.special-link>a:hover {color: #f9b435;}
-.sidemenu-list>li>a, .topmenu li a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
+.sidemenu>ul>li>.sub-menu {display: none; background-color: #b41c1b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
+.sidemenu>ul>li>.sub-menu>li.current-menu-item>a {color: #f9b435;}
+ul.menu>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; display: block; padding: 4px 20px;}
+.sidemenu>ul>li.current-menu-item>a, .sidemenu>ul>li.current-post-ancestor>a, .sidemenu>ul>li.current-page-ancestor>a {color: #f9b435;}
+.sidemenu>ul>li.current-menu-item.menu-item-has-children>.sub-menu, .sidemenu>ul>li.current-menu-ancestor.menu-item-has-children>.sub-menu {display: block;}
+.sidemenu>ul>li:first-child>a {background: none;}
+.sidemenu>ul>li>a, .topmenu li a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
 @media all and (max-width: 767px) {
 	.topmenu {display: block;}
 	.header {margin-top: 40px;}
@@ -156,10 +154,17 @@ iframe {border-width: 0; width: 100% !important;}
 	.news {border-radius: 8px !important;}
 }
 @media all and (min-width: 768px) and (max-width: 901px) {
-	.sidemenu-list>li>a {font-size: 14px;}
+	.sidemenu>ul>li>a {font-size: 14px;}
 }
-.sidemenu-list>li>a:hover, .topmenu li a:hover {color: #f9b435;}
-li.widget {list-style-type: none;}
+ul.menu li>a:hover {color: #f9b435 !important;}
+
+.menu>li.image {background-position: 20px center; background-repeat: no-repeat;}
+.menu>li.image>a {padding-left: 50px;}
+.menu>li.member {background-image: url(images/zralok.svg)}
+.menu>li.photo {background-image: url(images/picture.svg)}
+
+li.widget {list-style-type: none; margin-bottom: 1em;}
+
 .news {background-color: #16377c; color: #fff; padding: 20px; -webkit-border-radius: 0 0 8px 8px; -moz-border-radius: 0 0 8px 8px; -ms-border-radius: 0 0 8px 8px; -o-border-radius: 0 0 8px 8px; border-radius: 0 0 8px 8px; position: relative;}
 .news h3 {font-size: 18px; color: #fff; line-height: 24px; margin-bottom: 20px;}
 .news h3 .fa {color: #f9b435; margin-right: 6px;}

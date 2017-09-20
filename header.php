@@ -16,42 +16,38 @@
 
 	<!-- HEADER -->
 	<div class="header">
-	<nav class="topmenu"">
-	  <ul>
-		<li><a id="menu-button">☰ Menu</a></li>
-	  </ul>
-	  <?php wp_nav_menu(['menu_id' => 'menu-top', 'container' => '', 'theme_location'=>'top']);?>
-	</nav>
+		<nav class="topmenu"">
+			<ul>
+				<li><a id="menu-button">☰ Menu</a></li>
+			</ul>
+		<?php wp_nav_menu(['menu_id' => 'menu-top', 'container' => '', 'theme_location'=>'top']);?>
+		</nav>
 
-	<div class="line white">
-	  <div class="wrap">
-		<a href="<?php bloginfo('url')?>" class="logo"><img src="<?php echo BASE_URL; ?>/images/logo.svg"></a>
-		<strong class="supertitle">Vodní záchranná služba ČČK</strong>
-	  </div>
-	</div>
+		<div class="line white">
+			<div class="wrap">
+				<a href="<?php bloginfo('url')?>" class="logo"><img src="<?php echo BASE_URL; ?>/images/logo.svg"></a>
+				<strong class="supertitle">Vodní záchranná služba ČČK</strong>
+			</div>
+		</div>
 
-	<div class="line blue">
-	  <div class="wrap">
-	  <strong class="subtitle">Jablonec nad Nisou</strong>
-	</div>
-	</div>
+		<div class="line blue">
+			<div class="wrap">
+				<strong class="subtitle">Jablonec nad Nisou</strong>
+			</div>
+		</div>
 	</div>
 	<!-- / HEADER -->
 
   <!-- PAGE -->
-  <div class="content">
-    <div class="line red"></div>
-    <div class="wrap">
-      
-      <div class="cpage">
-        
-        <div class="main">
-
-          <div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
-            <?php if(function_exists('bcn_display'))
-            {
-                bcn_display();
-            }?>
-        </div>
-          
-          <div class="main-inner">
+	<div class="content">
+	<div class="line red"></div>
+	<div class="wrap">
+		<div class="cpage">
+			<div class="main">
+		  		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+				<?php if(function_exists('bcn_display'))
+				{
+					bcn_display();
+				}?>
+				</div>
+		  	<div class="main-inner">

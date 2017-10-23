@@ -1,4 +1,4 @@
-        <div class="sidebar">
+        <aside class="sidebar">
           
           <nav class="sidemenu">
             <?php wp_nav_menu(['container' => '', 'theme_location'=>'header']);?>
@@ -6,4 +6,4 @@
 
           <?php dynamic_sidebar('sidebar-1') ?>
 
-        </div>
+        </aside>

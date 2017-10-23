@@ -16,7 +16,7 @@
 
 	<!-- HEADER -->
 	<div class="header">
-		<nav class="topmenu"">
+		<nav class="topmenu">
 			<ul>
 				<li><a id="menu-button">☰ Menu</a></li>
 			</ul>

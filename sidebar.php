@@ -1,6 +1,6 @@
         <aside class="sidebar">
           
-          <nav class="sidemenu">
+          <nav role="navigation" class="sidemenu">
             <?php wp_nav_menu(['container' => '', 'theme_location'=>'header']);?>
           </nav>
 

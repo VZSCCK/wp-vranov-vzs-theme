@@ -15,8 +15,8 @@
 	<body <?php body_class(); ?>>
 
 	<!-- HEADER -->
-	<div class="header">
-		<nav class="topmenu">
+	<div class="header" role="banner">
+		<nav class="topmenu" role="navigation">
 			<ul>
 				<li><a id="menu-button">☰ Menu</a></li>
 			</ul>
@@ -43,11 +43,11 @@
 	<div class="line red"></div>
 	<div class="wrap">
 		<div class="cpage">
-			<div class="main">
-		  		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+			<main class="main" role="main">
+		  		<nav role="navigation" class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
 				<?php if(function_exists('bcn_display'))
 				{
 					bcn_display();
 				}?>
-				</div>
+				</nav>
 		  	<div class="main-inner">

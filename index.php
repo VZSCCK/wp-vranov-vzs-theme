@@ -6,7 +6,7 @@
 		global $post;
 		$myposts = get_posts('numberposts=5&category=3&order=date&no_found_rows=true');
 		foreach($myposts as $post) : setup_postdata($post);?>
-		<article>
+		<article role="article">
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<?php the_content();?>
 		</article>

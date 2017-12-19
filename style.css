@@ -156,7 +156,7 @@ ul.menu li>a:hover {color: #f9b435 !important;}
 .menu>li.image {background-position: 20px center; background-repeat: no-repeat;}
 .menu>li.image>a {padding-left: 50px;}
 .menu>li.member {background-image: url(images/zralok.svg)}
-.menu>li.photo {background-image: url(images/picture.svg)}
+.menu>li.photo {background-image: url(images/image.svg)}
 
 li.widget {list-style-type: none; margin-bottom: 1em;}
 

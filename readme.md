@@ -12,6 +12,7 @@ už jsem si tak jistý nebyl :D Výsledek si můžeme prohlídnout na adrese [ht
  velké přizpůsobení šablony, textu atd...
   
  ##Cíle projektu:
+ 
   1) Zjednodušit šablonu tak, aby bylo možné co největší uživatelské přizpůsobení bez přímé úpravy kódu
   2) Urychlit načítání nahrazením prastarých technik jako obrázkové pozadí a nahrazením moderními technikami CSS a SVG.
   3) Vynechání nepotřebných funkcionalit a nepoužívaného balastu jako načítání celého *icon fontu* kvůli jednomu obrázku 
@@ -61,8 +62,8 @@ I patička obsahuje *dynamický sidebar*, tentokrát s názvem **Footer** a mů�
 jako je uvedeno  výše. My tam třeba máme HTML prvek s textem `Vodní záchranná služba ČČK Jablonec nad Nisou` ale může 
 to být klidně prázdné. 
   
-###Drobečkouvá navigace nad textem
-V původní šabloně šlo o plugin, nebylo to součástí funkčnosti šablony. Nebyl jsme schopen přijít na to, který přesně 
+###Drobečková navigace nad textem
+V původní šabloně šlo o plugin, nebylo to součástí funkčnosti šablony. Nebyl jsem schopen přijít na to, který přesně 
 použili ale pravděpodobně šlo o [plugin Breadcrumb NavXT](https://cs.wordpress.org/plugins/breadcrumb-navxt/) .
 Opět stačí ho nainstalovat a aktivovat. Bude to chtít asi nějaké to šťourání v nastavení, aby vyhovoval vaším potřebám. 
  
@@ -80,12 +81,9 @@ informacích** a zaškrtněte položku *CSS třídy*.
 ##Další pluginy
 Doporučujeme nainstalovat i jiné pluginy:
 
-1) [Google Apps Login](https://cs.wordpress.org/plugins/google-apps-login/) Bezpečnější přihlášení přes účty Googlu. 
+ 1) [Google Apps Login](https://cs.wordpress.org/plugins/google-apps-login/) Bezpečnější přihlášení přes účty Googlu. 
 Wordpress je známý časnými útoky na přihlašovací stránku, tohle jim zatne tipec.
-
-2) [Google XML Sitemaps](https://cs.wordpress.org/plugins/google-sitemap-generator/) Lepší indexování webu Googlem.
-
-3) [Facebook Auto Publish](https://cs.wordpress.org/plugins/facebook-auto-publish/) Články z Wordpressu se automatiky 
+ 2) [Google XML Sitemaps](https://cs.wordpress.org/plugins/google-sitemap-generator/) Lepší indexování webu Googlem.
+ 3) [Facebook Auto Publish](https://cs.wordpress.org/plugins/facebook-auto-publish/) Články z Wordpressu se automatiky 
 publikují i na Vaši stránku na Facebooku.
-   
-4) [WP Statistics](https://cs.wordpress.org/plugins/wp-statistics/) Podrobné statistiky návštěvnosti. 
+ 4) [WP Statistics](https://cs.wordpress.org/plugins/wp-statistics/) Podrobné statistiky návštěvnosti. 

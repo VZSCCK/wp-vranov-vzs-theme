@@ -39,8 +39,8 @@
 	<!-- / HEADER -->
 
   <!-- PAGE -->
-	<div class="content">
-	<div class="line red"></div>
+	<div class="content" style="background-image: url(<?php header_image(); ?>)" >
+	<div class="line red" style="top: <?php echo get_custom_header()->height; ?>px;"></div>
 	<div class="wrap">
 		<div class="cpage">
 			<main class="main" role="main">

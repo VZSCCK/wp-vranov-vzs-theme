@@ -2,7 +2,7 @@
 
     <div class="main-content">
       	<h1>Nejnovější články</h1>
-		<?php 
+		<?php
 		global $post;
 		$myposts = get_posts('numberposts=5&category=3&order=date&no_found_rows=true');
 		foreach($myposts as $post) : setup_postdata($post);?>

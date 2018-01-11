@@ -2,12 +2,22 @@
 //error_reporting(0);
 define('BASE_URL', get_template_directory_uri());
 
-add_theme_support( 'post-thumbnails' );
+add_theme_support('post-thumbnails');
 
-add_image_size( 'gallery', 300, 200, true); 
+$args = [
+	'flex-width'    => true,
+	'width' => 1920,
+	'flex-height'    => true,
+	'height' => 217,
+	'default-image' => get_template_directory_uri() . '/images/bg.jpg',
+	'uploads' => true,
+];
+add_theme_support('custom-header', $args);
+
+add_image_size('gallery', 300, 200, true);
 
 
-add_action( 'init', 'register_my_menus' ); 
+add_action('init', 'register_my_menus');
 
 function register_my_menus() {
 	if (function_exists('add_theme_support')) {

@@ -35,7 +35,7 @@ nemusíte obrázek ořezávat. Pouze je dobré aby šířka byla vyšší než *
  
 Příklad jak může fotografie vypadat (pro náš spolek) můžete najít v souboru `extras/bg.html`.
      
-### Výpis novinkek v postraním panelu pod menu
+### Výpis novinek v postranním panelu pod menu
 Původní šablona to měla natvrdo zakódované, tady je to pouze jako možnost. Celý postranní sloupec pod menu je registrován 
 jako *dynamický sidebar*, takže je do něj možno přidávat jakýkoliv obsah. 
    
@@ -46,16 +46,16 @@ a následně **Vzhled → Widgety** ho přidat do panelu **Sidebar**.
 **Ultimate Posts Widget** umožňuje poté nastavit z jaké kategorie se mají příspěvky brát, kolik jich zobrazit, 
 co z nich atd... V nastavení doporučuje hodnotu **CSS class** nastavit na `news` aby to barevně odpovídalo původní šabloně.
 
-Nastavení obashuje i veličiny **After post** a **Before post** kam můžete vložit libovolný HTML obsah 
+Nastavení obsahuje i veličiny **After post** a **Before post** kam můžete vložit libovolný HTML obsah 
 třeba třeba odkaz na stránku se všemi aktualitami nebo odkaz na facebook (původní obrázek viz `extras/fcb.html`).  
      
-### Zobrazení jinéhp typu obsahu v posdtením panenu (kalendář, obrázek, odkaz)
+### Zobrazení jiného typu obsahu v postranním panelu (kalendář, obrázek, odkaz)
 *Dynamický sidebar* umožňuje vložit libovolný typ obsahu, na jaký máte *widget*. Nejsnadnější je použít widgety 
 **HTML, Text, Obrázek atd...** 
 
 Původní obsah postranního panelu můžete najít v souboru `extras/sidebar.html`.
 
-My tam máme HTML kontejneer obrázky s odkazem na **Facebook** a **YouTube** (viz `extras/facebook.svg` a `extras/youtube.svg`)
+My tam máme HTML kontejner obrázky s odkazem na **Facebook** a **YouTube** (viz `extras/facebook.svg` a `extras/youtube.svg`)
 
 ### Obsah v patičce webu
 I patička obsahuje *dynamický sidebar*, tentokrát s názvem **Footer** a můžete přidat libovolný obsah podobně 

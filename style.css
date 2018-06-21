@@ -140,6 +140,8 @@ iframe {border-width: 0; width: 100% !important;}
 ul.menu>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; display: block; padding: 4px 20px;}
 .sidemenu>ul>li.current-menu-item>a, .sidemenu>ul>li.current-post-ancestor>a, .sidemenu>ul>li.current-page-ancestor>a {color: #f9b435;}
 .sidemenu>ul>li.current-menu-item.menu-item-has-children>.sub-menu, .sidemenu>ul>li.current-menu-ancestor.menu-item-has-children>.sub-menu {display: block;}
+.menu li.menu-item-has-children > a:after { content: '▼'; margin-left: 1ex;}
+.menu li.current-menu-item.menu-item-has-children > a:after { content: '▲'}
 .sidemenu>ul>li:first-child>a {background: none;}
 .sidemenu>ul>li>a, .topmenu li a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
 @media all and (max-width: 767px) {

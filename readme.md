@@ -33,7 +33,7 @@ Toto už zle udělat z **administrativního rozhraní** přístupné na `vase-ad
 Jdete na **Vzhled → Záhlaví** a tlačítkem **Přidat obrázek** si můžete vybrat vlastní fotografii. Rozměry jsou na Vás, 
 nemusíte obrázek ořezávat. Pouze je dobré aby šířka byla vyšší než **2000 pixelů** kvůli zobrazení na velkých monitorech.
  
-Příklad jak může fotografie vypadat (pro náš spolek) můžete najít v souboru `extras/bg.html`.
+Příklad jak může fotografie vypadat (pro náš spolek) můžete najít v souboru `extras/bg.jpg`.
      
 ### Výpis novinek v postranním panelu pod menu
 Původní šablona to měla natvrdo zakódované, tady je to pouze jako možnost. Celý postranní sloupec pod menu je registrován 
@@ -47,7 +47,7 @@ a následně **Vzhled → Widgety** ho přidat do panelu **Sidebar**.
 co z nich atd... V nastavení doporučuje hodnotu **CSS class** nastavit na `news` aby to barevně odpovídalo původní šabloně.
 
 Nastavení obsahuje i veličiny **After post** a **Before post** kam můžete vložit libovolný HTML obsah 
-třeba třeba odkaz na stránku se všemi aktualitami nebo odkaz na facebook (původní obrázek viz `extras/fcb.html`).  
+třeba třeba odkaz na stránku se všemi aktualitami nebo odkaz na facebook (původní obrázek viz `extras/fcb.jpg`).  
      
 ### Zobrazení jiného typu obsahu v postranním panelu (kalendář, obrázek, odkaz)
 *Dynamický sidebar* umožňuje vložit libovolný typ obsahu, na jaký máte *widget*. Nejsnadnější je použít widgety 

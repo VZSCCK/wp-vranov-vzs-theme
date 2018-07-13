@@ -134,6 +134,9 @@ iframe {border-width: 0; width: 100% !important;}
 .topmenu .menu {display: none;}
 .topmenu .menu.responsive {display: block;}
 
+#menu-button:before {content: '☰'; margin-right: 1ex;}
+#menu-button.responsive:before {content: '✖';}
+
 .sidemenu {background-color: #c21e1d; color: #fff; padding: 20px; -webkit-border-radius: 8px 0 0 0; -moz-border-radius: 8px 0 0 0; -ms-border-radius: 8px 0 0 0; -o-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; border-bottom: 7px solid #f9b435;}
 .sidemenu>ul>li>.sub-menu {display: none; background-color: #b41c1b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
 .sidemenu>ul>li>.sub-menu>li.current-menu-item>a {color: #f9b435;}

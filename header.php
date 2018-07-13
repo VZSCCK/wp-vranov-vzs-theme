@@ -18,7 +18,7 @@
 	<div class="header" role="banner">
 		<nav class="topmenu" role="navigation">
 			<ul>
-				<li><a id="menu-button">☰ Menu</a></li>
+				<li><a id="menu-button">Menu</a></li>
 			</ul>
 		<?php wp_nav_menu(['menu_id' => 'menu-top', 'container' => '', 'theme_location'=>'top']);?>
 		</nav>

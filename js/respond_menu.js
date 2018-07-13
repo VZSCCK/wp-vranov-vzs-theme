@@ -1,9 +1,7 @@
-document.getElementById('menu-button').addEventListener("click", function() {
-    var x = document.getElementById("menu-top");
-    if (x.className === "menu") {
-        x.className += " responsive";
-    } else {
-        x.className = "menu";
-    }
+document.getElementById('menu-button').addEventListener('click', function() {
+    var menu = document.getElementById('menu-top');
+    var button = document.getElementById('menu-button');
+    menu.classList.toggle('responsive');
+    button.classList.toggle('responsive');
 } );
 

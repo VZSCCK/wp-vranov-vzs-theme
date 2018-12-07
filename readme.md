@@ -33,7 +33,7 @@ Toto už zle udělat z **administrativního rozhraní** přístupné na `vase-ad
 Jdete na **Vzhled → Záhlaví** a tlačítkem **Přidat obrázek** si můžete vybrat vlastní fotografii. Rozměry jsou na Vás, 
 nemusíte obrázek ořezávat. Pouze je dobré aby šířka byla vyšší než **2000 pixelů** kvůli zobrazení na velkých monitorech.
  
-Příklad jak může fotografie vypadat (z vzs.cz) můžete najít v souboru `extras/bg.jpg`.
+Příklad jak může fotografie vypadat (pro náš spolek) můžete najít v souboru `extras/bg.jpg`.
      
 ### Výpis novinek v postranním panelu pod menu
 Původní šablona to měla natvrdo zakódované, tady je to pouze jako možnost. Celý postranní sloupec pod menu je registrován 

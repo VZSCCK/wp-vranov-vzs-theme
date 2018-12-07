@@ -2,9 +2,9 @@
 
 Toto je přepracovaná verze šablony VZS Wordpress dostupné na https://github.com/VZSCCK/wp-vzs-theme/ 
 
-Přepracování bylo nutné, protože náš pobočný spolek chtěl použít základní design šablony ovšem přizpůsobit jí naším 
+Přepracování bylo nutné, protože náš pobočný spolek chtěl použít základní design šablony, ovšem přizpůsobit jí naším 
 potřebám. Chtěli jsme prostě nové webovky a zvolit oficiální šablonu vypadlo jako dobrý nápad. Po cca měsíci práce 
-už jsem si tak jistý nebyl :D Výsledek si můžeme prohlídnout na adrese [https://www.vzs-jablonec.cz] 
+už jsem si tak jistý nebyl :D Výsledek si můžeme prohlídnout na adrese https://www.vzs-jablonec.cz 
  
 Původní šablona nebyla vůbec otevřená úpravám a hodně funkcionality a textů je tam natvrdo přímo v kódu šablony. 
 Čili pokud jí chcete přizpůsobit, musíte být jak programátoři, tak kodéři, což mnoho lidí není a už vůbec ne lidi 
@@ -14,7 +14,7 @@ velké přizpůsobení šablony, textu atd...
 ## Cíle projektu
  
 1. Zjednodušit šablonu tak, aby bylo možné co největší uživatelské přizpůsobení bez přímé úpravy kódu
-2. Urychlit načítání nahrazením prastarých technik jako obrázkové pozadí a nahrazením moderními technikami CSS a SVG.
+2. Urychlit načítání nahrazením prastarých technik (jako obrázkové pozadí na rámečky) a nahrazením moderními technikami CSS a SVG.
 3. Vynechání nepotřebných funkcionalit a nepoužívaného balastu jako načítání celého *icon fontu* kvůli jednomu obrázku 
 
 Následující text předpokládá, že ovládáte základy Wordpresu, takto tvorba obsahu, menu, práce s widgety 

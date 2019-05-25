@@ -117,6 +117,7 @@ iframe {border-width: 0; width: 100% !important;}
 .main img.alignright {float: right; margin: 20px 0 20px 20px;}
 .main img.aligncenter {display: block; margin: 20px auto;}
 .main img.alignnone {float: none;}
+.main img.size-large {box-shadow: 0 5px 10px #aaa;}
 .main .news-list>li:hover .title {color: #16377c;}
 .main .news-list>li .title {color: #c21e1d;}
 .main .news-list>li .title:hover {color: #16377c;}

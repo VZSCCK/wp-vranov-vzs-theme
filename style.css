@@ -242,3 +242,6 @@ li.widget {list-style-type: none; margin-bottom: 1em;}
 	.footer-right {float: none;}
 }
 .footer .wrap {padding: 30px 0;}
+
+/*body > footer ~ div {display: none}*/
+/*body > div#wpadminbar {display: block}*/

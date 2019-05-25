@@ -98,7 +98,9 @@ iframe {border-width: 0; width: 100% !important;}
 	.main-inner {padding-left: 3%; padding-right: 3%}
 }
 .main h1+h2, .main h1+h3, .main h1+p {margin-top: 0;}
-.main h1 {line-height: 36px; background: url(images/h1.png) 0 bottom no-repeat; padding-bottom: 40px; font-size: 28px; color: #c21e1d;}
+.main h1 {line-height: 36px; font-size: 28px; color: #c21e1d;}
+.main h1:after {content: ""; display: block; width: 10em; height: 1em; margin-top: 0.6ex; border-top: 1px solid #b0b0b0; padding-top: 1px; border-image: radial-gradient(#b0b0b0, #f4f4f4) 1;
+	background: radial-gradient(farthest-corner at center top, #efefef 0%, white 60%); background-clip: content-box;}
 .main h2 {line-height: 28px; margin-bottom: 20px; margin-top: 40px; font-size: 22px;}
 .main h3, .main h4, .main h5 {line-height: 24px; margin-bottom: 20px; margin-top: 40px; font-size: 18px;}
 .main ul {margin: 20px 0;}
@@ -140,6 +142,7 @@ iframe {border-width: 0; width: 100% !important;}
 #menu-button.responsive:before {content: '✖';}
 
 .sidemenu {color: #fff; padding: 20px; -webkit-border-radius: 8px 0 0 0; -moz-border-radius: 8px 0 0 0; -ms-border-radius: 8px 0 0 0; -o-border-radius: 8px 0 0 0; border-radius: 8px 0 0 0; border-bottom: 7px solid #f9b435;}
+.menu>li {border-top: 1px solid #b0b0b0; border-image: radial-gradient(#a11110, #b91b1a) 1;}
 .menu>li>.sub-menu {display: none; background-color: #b41c1b; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
 .menu>li>.sub-menu>li.current-menu-item>a {color: #f9b435;}
 ul.menu>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; display: block; padding: 4px 20px;}
@@ -148,7 +151,10 @@ ul.menu>li>.sub-menu>li>a {font-size: 13px; color: #fff; text-decoration: none; 
 .menu li.menu-item-has-children>a:after { content: '▼'; float: right;}
 .menu li.menu-item-has-children.current-menu-item>a:after, .menu li.menu-item-has-children.current-menu-ancestor>a:after { content: '▲'}
 .sidemenu>ul>li:first-child>a {background: none;}
-.menu>li>a, .topmenu>ul>li>a {display: block; background: url(images/sidemenu-li.png) 0 top no-repeat; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;}
+.sidemenu>ul>li:first-child>a, .sidemenu>ul>li:first-child {border: none;}
+
+.menu>li>a, .topmenu>ul>li>a {display: block; height: 40px; line-height: 42px; color: #fff; text-decoration: none; font-weight: 600; font-size: 17px; padding: 0 20px; position: relative;
+	border-top: 1px solid #c21e1d; border-image: radial-gradient(#df3332, #cb2524) 1; background: radial-gradient(farthest-corner at 30% top, rgba(0,0,0,0.07) 0%, rgba(0,0,0,0.0) 40%);}
 
 @media all and (max-width: 767px) {
 	.topmenu {display: block;}

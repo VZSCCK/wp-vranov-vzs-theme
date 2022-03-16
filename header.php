@@ -32,7 +32,7 @@
 
 		<div class="line blue">
 			<div class="wrap">
-				<strong class="subtitle">Jablonec nad Nisou</strong>
+				<strong class="subtitle">Vranov</strong>
 			</div>
 		</div>
 	</div>
